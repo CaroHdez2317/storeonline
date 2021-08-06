@@ -1,0 +1,169 @@
+body
+{
+    background: orange;
+    font-family: "Times New Roman", cursive;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Lobster Two', cursive;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+/*NAV -----*/
+.main-title
+{
+    color: orange !important;
+    font-size: 26px; 
+}
+
+nav img
+{
+    height: 50px;
+}
+
+/* FOOTER -----*/
+footer
+{
+    background: #222;
+    padding: 1em;
+    text-align: center;
+}
+
+footer img
+{
+    height: 45px;
+}
+
+footer p
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer h3
+{
+    color: azure;
+}
+
+ul.redes li
+{
+    display: inline-block;
+    align-items:center;
+}
+
+ul.redes li a
+{
+    color: orange;
+}
+
+.avatar
+{
+    border: 5px solid orange;
+    border-radius: 50%;
+    float: inherit;
+    height: 50px;
+    width: 50px;
+}
+
+/*CATÁLOGO -------*/
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+max-width: 100%;
+height: 200px ;
+}
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+}
+.white-panel h1 {
+font-size: 1em;
+}
+.white-panel h1 a {
+color: #A92733;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+/*DETALLE PRODUCTO ----*/
+.product-block
+{
+    background: #fff;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.product-block img
+{
+    width: 300px;
+    height: 400px;
+}
+/*SLIDER ----*/
+.navbar
+{
+    margin-bottom: 0;
+}
+
+.carousel-inner img
+{
+    height: 350px;
+    width: 800px;
+    overflow:hidden; 
+}
+
+/*CARRITO ----*/
+.table-cart
+{
+    background: #fff;
+    border-radius: 1em;
+    margin-bottom: 30px;
+    padding: 1em;
+    text-align: center;
+}
+
+.table-cart img
+{
+    height: 50px;
+}
+
+/* Detalle del pedido ------------*/
+.page-header{
+    color: #000;
+}
+.page
+{
+    font-size: 16px;
+    border-radius: 1em;
+    margin-bottom: 30px;
+    padding: 1em;
+}
+
+.icon-home
+{
+    color: #666;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.btn-home-admin
+{
+    font-size:25px;
+}
